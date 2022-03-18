@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-g+xc6tn&6tb@k&%*b#exz2%kh7^#aeu_eo%6smsnjq^!60tfd$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*',
-                 'https://duckduckespresso.herokuapp.com/',
-                 'duckduckespresso.herokuapp.com',]
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'localhost',
+                 '*.herokuapp.com',]
 
 
 # Application definition
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'gotspaceanot.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/website/templates/website/welcome.html'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
