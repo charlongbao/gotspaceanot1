@@ -58,7 +58,7 @@ ROOT_URLCONF = 'gotspaceanot.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['website/templates'],
+        'DIRS': ['/website/templates/website/welcome.html'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
