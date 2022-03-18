@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn gotspaceanottest1.wsgi
+web: gunicorn gotspaceanot1.wsgi
